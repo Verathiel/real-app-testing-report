@@ -9,6 +9,4 @@
 | TC5 | Prázdné pole password    | uživatel: standard_user<br>heslo: *(prázdné)* | Chyba: „Password is required“                        | Hlásí chybu správně                                | ✅ PASS |
 | TC6 | Zvláštní znaky v loginu  | uživatel: !@#$%^&*()<br>heslo: test | Chyba: „Username and password do not match“          | Hlásí chybu správně                                | ✅ PASS |
 | TC7 | Problémový uživatel      | uživatel: problem_user<br>heslo: secret_sauce | Přihlášení proběhne, ale zobrazí se bugy v obrázcích | Bugy přítomné – obrázky se nenačítají             | ❗BUG |
-TC10	Přidání více produktů do košíku	standard_user / secret_sauce	1. Přihlásit se do aplikace
-2. Přidat dva různé produkty do košíku
-3. Kliknout na ikonu košíku vpravo nahoře	Produkty jsou viditelné v košíku se správnými názvy a počtem	✅ Passed	cart-add-multiple-top.png, cart-add-multiple-bottom.png
+| TC10 | Přidání více produktů do košíku |
