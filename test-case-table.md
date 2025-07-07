@@ -17,5 +17,3 @@
 | T13 | Dokončení objednávky | Kliknutí na tlačítko „Finish“ | Zobrazí se potvrzení „Thank you for your order!“ | ✅ Passed | order_complete.png | 
 | T14 |	Přihlášení bez uživatelského jména | Nevyplněné jméno, zadáno pouze heslo, kliknutí na „Login“ | Chybové hlášení: "Username is required" | ✅ Passed | login_missing_username.png |
 | T15 | Přihlášení bez hesla | Zadáno jméno, ale žádné heslo, kliknutí na „Login“ | Chybové hlášení: "Password is required" | ✅ Passed | login_missing_password.png | 
-| T16 | Zadání neexistujícího uživatele | Neplatné přihlašovací údaje (např. "fakeuser" / "1234") | Chybové hlášení: "Username and password do not match..." | ✅ Passed | invalid_login.png |
-| T17 | UI kontrast a přístupnost | Kontrola kontrastu, zarovnání textu, velikosti tlačítek | Vše je čitelné, tlačítka dostatečně velká, UI nepřekrývá prvky | ✅ Passed | ui_readability.png |
